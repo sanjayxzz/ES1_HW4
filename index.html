@@ -1,0 +1,17 @@
+let car = {
+  brand: "toyota",
+  model: "corolla"
+}
+console.log(car.brand)
+console.log(car.model)
+car.brand = "honda"
+
+console.log(car)
+
+car.year = 2022
+car.color = "red"
+
+console.log(car)
+for (let property in car ){
+  console.log(property + ": " + car[property])
+}
